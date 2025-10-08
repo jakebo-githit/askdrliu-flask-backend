@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: askdrliu-api
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: OPENAI_API_KEY
+        value: YOUR_OPENAI_API_KEY
